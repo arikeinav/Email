@@ -76,7 +76,7 @@ export class MailApp extends React.Component {
                 render={(props) => (
                   <MailList {...props} showSide={this.showSide} />
                 )}
-                path="/mail/mailList"
+                path="/"
               />
             </Switch>
 

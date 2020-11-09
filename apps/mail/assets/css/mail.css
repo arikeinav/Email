@@ -1,72 +1,72 @@
     .mail-app {
         display: flex;
     }
-
+    
     li {
         list-style: none;
     }
-
+    
     a {
         text-decoration: none;
     }
-
+    
     hr {
         border-width: 0.5px;
     }
-
+    
     button {
         outline: none;
     }
-
+    
     input {
         outline: none
     }
-
+    
     .mail-app {
         max-width: 1400px;
     }
-
+    
     i.fa-bars {
         display: none;
     }
-
+    
     .toolbar {
         display: flex;
         justify-content: flex-start;
         border-bottom: solid rgb(146, 151, 126) 1px;
     }
-
+    
     .subject-title {
         font-size: 1.7rem;
     }
-
+    
     .sent-time {
         font-size: 0.8rem;
         margin-bottom: 30px;
     }
-
+    
     .sender-details {
         font-weight: bold;
         font-size: 1.1rem;
     }
-
+    
     .toolbar>* {
         margin-left: 15px;
     }
-
+    
     .mails-container {
         width: 80%;
     }
-
+    
     .mail-body {
         overflow-wrap: break-word;
         padding: 10px;
     }
-
+    
     .ans-btn {
         width: 100px;
     }
-
+    
     .mail-prev {
         display: flex;
         justify-content: space-between;
@@ -76,29 +76,29 @@
         background-color: rgba(255, 252, 255, 0.902);
         font-weight: bold;
     }
-
+    
     .favorite-mark i {
         padding-right: 10px;
         margin-left: 5px;
     }
-
+    
     .fa-trash-alt {
         margin-right: 10px;
     }
-
+    
     .garbe:hover {
         color: red;
     }
-
+    
     .preview-line :hover {
         background-color: rgba(240, 240, 250, 0.902);
     }
-
+    
     .read-mail-prev {
         background-color: rgba(245, 240, 245, 0.93);
         font-weight: normal;
     }
-
+    
     .logo {
         width: 80px;
         height: 80px;
@@ -106,46 +106,46 @@
         margin-top: 10px;
         opacity: 0.7;
     }
-
+    
     .favorite-mark {
         display: flex;
     }
-
+    
     .mail-prev .favorite-mark {
         width: 15%;
     }
-
+    
     .mail-budy-prev-txt {
         display: flex;
         flex-grow: 1;
     }
-
+    
     .mail-prev .data-sent {
         display: flex;
         width: 15%;
     }
-
+    
     .mail-prev p {
         align-self: center;
     }
-
+    
     .mail-prev i {
         align-self: center;
     }
-
+    
     .side-menu {
         width: 15%;
         height: 100vh;
         background-color: rgba(255, 252, 255, 0.902);
     }
-
+    
     .side-menu-list {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         height: 30%
     }
-
+    
     .modal-wrapper {
         position: fixed;
         background: rgba(0, 0, 0, 0.5);
@@ -159,7 +159,6 @@
         z-index: 5;
         box-sizing: border-box
     }
-
     .modal-content {
         background: white;
         max-width: 60%;
@@ -169,11 +168,11 @@
         border-radius: 10px;
         position: relative;
     }
-
+    
     .hide {
         display: none;
     }
-
+    
     #comp {
         margin-top: 5px;
         width: 96%;
@@ -181,7 +180,7 @@
         margin: auto;
         border: none;
     }
-
+    
     .compose-form {
         height: 100%;
         text-align: center;
@@ -189,17 +188,17 @@
         flex-direction: column;
         justify-content: space-between;
     }
-
+    
     .compose-form input {
         border: none;
     }
-
+    
     .compose-form p {
         padding: 0;
         margin: 5px;
         padding-bottom: 1px;
     }
-
+    
     .form-header {
         height: 25px;
         background-color: black;
@@ -207,24 +206,24 @@
         justify-content: space-between;
         align-items: center;
     }
-
+    
     .form-header i {
         margin: 0;
         font-size: 1.05rem;
         color: rgba(245, 240, 245, 0.93);
         margin-right: 5px;
     }
-
+    
     .form-header h4 {
         margin: 0;
         color: rgba(245, 240, 245, 0.93);
         margin-left: 2px;
     }
-
+    
     .to-input input {
         width: 90%;
     }
-
+    
     .to-input {
         margin-top: 5px;
         margin-bottom: 5px;
@@ -233,7 +232,7 @@
         margin-left: 5px;
         border-bottom: solid rgb(146, 151, 126) 1px;
     }
-
+    
     .subject-input {
         display: flex;
         width: 98%;
@@ -241,11 +240,11 @@
         border-bottom: solid rgb(146, 151, 126) 1px;
         margin-bottom: 5px;
     }
-
+    
     .subject-input input {
         width: 90%;
     }
-
+    
     .send-btn {
         max-width: 100px;
         align-self: flex-end;
@@ -257,25 +256,26 @@
         font-weight: bolder;
         cursor: pointer;
     }
-
+ 
+    
     .yellow {
         color: yellow;
     }
-
+    
     .mail-filter {
         height: 94.1px;
         width: 50%;
         margin: auto;
         text-align: center;
     }
-
+    
     .search-input {
         margin-top: 37px;
         border-radius: 5px;
         height: 20px;
         width: 80%;
     }
-
+    
     nav {
         display: flex;
         justify-content: space-between;
@@ -283,7 +283,7 @@
         background-color: rgb(68, 69, 69);
         align-items: baseline;
     }
-
+    
     .nav-bar {
         position: relative;
         display: flex;
@@ -294,12 +294,12 @@
         text-align: center;
         color: white;
     }
-
+    
     .status {
         margin: auto;
         width: 100px;
     }
-
+    
     .mail-details-container {
         margin-top: 94.1px;
         width: 90%;
@@ -309,11 +309,11 @@
         justify-content: flex-start;
         padding-inline-start: 40px;
     }
-
+    
     .mail-details-container hr {
         width: 794px;
     }
-
+    
     .side-menu-list button {
         height: 40px;
         width: 110px;
@@ -324,7 +324,7 @@
         font-weight: bolder;
         cursor: pointer;
     }
-
+    
     @media (max-width:800px) {
         .mail-prev {
             flex-direction: column;

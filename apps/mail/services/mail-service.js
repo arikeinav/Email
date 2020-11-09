@@ -61,6 +61,7 @@ function remove(mailId) {
 }
 
 function getById(mailId) {
+    console.log(mailId, mails);
     const mail = mails.find(mail => mail.id === mailId)
     return Promise.resolve(mail)
 }
